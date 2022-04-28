@@ -1,0 +1,48 @@
+body{
+    background-color: #1E1E1E;
+    color:#8097A0;
+}
+
+p{
+    color:#8097A0;
+}
+
+.article{
+    background-color: #1D2E3E;
+    border: none!important;
+    box-shadow: none !important;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.sidebar{
+    background-color: #1D2E3E;
+    border-radius: 10px;
+}
+
+.technology-box{
+    list-style-type: none;
+    padding: 10px 10px 10px 5px;
+    border-radius: 10px;
+}
+
+.tech-topic-list li{
+    line-height: 1.5rem;
+}
+
+code pre{
+    background-color: #1E1E1E;
+    color: #9CDCFE;
+    padding: 10px;
+}
+
+.file-name{
+    font-family: Consolas,"courier new";
+    color: #73C991;
+    display: inline-block;
+    padding: 5px!important;
+    margin-bottom: 2px;
+    background-color: #2D2D2D;
+    padding: 2px;
+    font-size: 105%;
+}

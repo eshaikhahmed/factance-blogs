@@ -1,0 +1,9 @@
+# Disable Directory Browsing
+Options All -Indexes
+RewriteEngine On    # Turn on the rewriting engine
+
+RewriteRule ^article/([a-zA-Z0-9-]+)/([a-zA-Z0-9-]+)/([a-zA-Z0-9-]+)/?$  article.php?article_id=$3  [NC,L]   
+
+RewriteRule ^([a-zA-Z0-9-]+)/all/?$  posts.php?technology=$1  [NC,L]   
+ 
+ 

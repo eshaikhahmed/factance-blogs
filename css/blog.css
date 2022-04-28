@@ -1,0 +1,161 @@
+
+body{
+    background-color: #1E1E1E;
+    color:#8097A0;
+}
+
+.new-index-h2 {
+    font-size: 24px;
+}
+
+textarea:hover{
+    cursor: pointer;
+    border: 1px solid #007ACC!important;
+}
+
+.post-writer-section{
+    margin-top: 40px;    
+}
+
+.emoji-list span, .common-emoji-list span{
+    display: inline-block;
+    border: 1px solid #1C2D3E;
+    padding: 10px;
+    margin-bottom:2px;
+    font-size: 30px;
+}
+
+.common-emoji-list span:hover{
+    cursor: pointer;
+    border: 1px solid #007ACC;
+}
+
+.emoji-list span:hover{
+    cursor: pointer;
+    border: 1px solid #007ACC;
+}
+
+.new-tab{
+    margin-top:5px;
+    margin-bottom:5px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgb(0 0 0 / 26%);
+    color: #ffffff;
+    background-color: #FFB82B;
+    padding: 5px;
+    border-radius:5px;
+    height: 35px;
+}
+
+.new-tab:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.space-manager{
+    margin: 20px;
+}
+
+.linkedin-show{
+    background-color: #146CC5;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.twitter-show{
+    background-color: #1D9BF0;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.flex-in-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article {
+    background-color: #eaf0f6;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 1rem;
+    overflow: hidden;
+    padding: 0px;   
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 10px;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.sidebar{
+    border-radius: 10px;
+}
+
+.sidebar ul li{
+    list-style-type: none;
+   
+    border-radius: 5px;
+    background-color: #1D2E3E;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.sidebar ul li a {
+    
+    color: #8097A0;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li:hover{
+    border: 2px solid #007ACC;
+}
+
+.post {
+    background-color: #1D2E3E;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 30%;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.post a {
+    text-decoration: none;
+    color: #8097A0;
+}
+
+.post:hover{
+    border: 2px solid #007ACC;
+}
+.post > div{
+    width: 100%;
+}
+
+.img-responsive{
+    width: 100%;
+    min-height: 150px;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+
+    .post {
+        width: 100%;
+    }
+}
