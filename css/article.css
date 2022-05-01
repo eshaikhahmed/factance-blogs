@@ -46,3 +46,11 @@ code pre{
     padding: 2px;
     font-size: 105%;
 }
+
+.img-responsive{
+    width: 100%;
+}
+
+.boolean{
+    color: #F0840E;
+}

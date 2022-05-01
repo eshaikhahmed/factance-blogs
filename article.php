@@ -22,10 +22,15 @@ for($k=0;$k<$total_rows;$k++)
 	$blog_technology=$rows[$k]['blog_technology'];
 	$published_date=$rows[$k]['published_date'];
 	$blog_author=$rows[$k]['blog_author'];
+	$blog_image=$rows[$k]['blog_image'];
 
 	$blog_title_url=strtolower(replace_spaces($blog_title));
 
+	$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+	$image_link = $actual_link. "/data-center/data?src=".$blog_image;
+							
 	$content.='<h1 class="title">'.$blog_title.'</h1>';
+	$content.='<p><img class="img-responsive" src="'.$image_link.'" alt="'.$blog_title.'" /></p>';
 	$content.=' '.$blog_detail.' ';
 }
 

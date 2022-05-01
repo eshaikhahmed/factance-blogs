@@ -34,7 +34,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 							{
 								$blog_technology = $rowDistinct[$k]['blog_technology'];
 								$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
-								$href= strtolower($blog_technology)."/all";
+								$href= "/".strtolower($blog_technology)."/all";
 						?>
 							<li><a href="<?=$href?>"><?=$blog_technology?></a></li>
 						<?php } ?>
@@ -62,7 +62,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 			
 				$image_link = $actual_link. "/data-center/data?src=".$blog_image;
 			?>
-				<div class="post">
+				<div class="post" title="<?= $title_show?>">
 					<div class="image-section">
 						<a href="article/<?=$blog_technology?>/<?= $url?>/<?=$blogid?>">
 							<img class="img-responsive" src="<?= $image_link?> " alt="<?=$rows[$k]['blog_title']?>">
@@ -70,7 +70,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 					</div>
 					<div class="title-section">
 						<a href="article/<?=$blog_technology?>/<?= $url?>/<?=$blogid?>">
-							<h2 class="new-index-h2"> <?= $blog_title ?></h2>
+							<h2 class="new-index-h2"> <?= $title_show ?></h2>
 							<p >
 								<?= $blog_shortdetails ?>
 							</p>
