@@ -54,3 +54,27 @@ code pre{
 .boolean{
     color: #F0840E;
 }
+
+.author-detail{
+    border: 1px solid #B4CFE1;
+    padding: 10px;
+}
+
+.social-handle{
+    font-size: 16px;
+    font-weight: bold;
+}
+.social-handle a{
+    text-decoration: none;
+   
+    padding: 10px;
+}
+
+.twitter{
+    background-color: #8ECDF8;
+}
+
+.linkedin{
+    color:  #4FB8FE;
+    background-color: #0B67C3;
+}

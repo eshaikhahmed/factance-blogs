@@ -34,7 +34,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 							{
 								$blog_technology = $rowDistinct[$k]['blog_technology'];
 								$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
-								$href= "/".strtolower($blog_technology)."/all";
+								$href= "".strtolower($blog_technology)."/all";
 						?>
 							<li><a href="<?=$href?>"><?=$blog_technology?></a></li>
 						<?php } ?>

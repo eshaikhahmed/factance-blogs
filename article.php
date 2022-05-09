@@ -88,6 +88,19 @@ include('header.php');
 
                     <?=$content?>
                     <p>&nbsp;</p>
+					<div class="author-detail">
+							<p>
+								<strong>Ejaz Shaikh</strong>
+							</p>
+							<p>I'm passionate about freelancing, technology and healthy lifestyle.
+								I enjoy writing code and writing about code. 
+							</p>
+							<p class="social-handle">
+									<a href="https://www.linkedin.com/in/eshaikhahmed" target="_blank" class="linkedin"><span>LinkedIn</span></a>
+									<a href="https://twitter.com/eshaikhahmed" target="_blank" class="twitter"><span>Twitter</span></a>
+							</p>
+
+					</div>
                 </div>
             </div>
 			<div class="col-md-3 ">

@@ -62,7 +62,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 				// $publish_date = strtoupper($publish_date);
 				$url = strtolower(replace_spaces($rows[$k]['blog_title']));
 			
-				$image_link = $actual_link. "/data_center/data?src=".$blog_image;
+				$image_link = $actual_link. "/data-center/data?src=".$blog_image;
 			?>
 				<div class="post">
 					<div class="image-section">
